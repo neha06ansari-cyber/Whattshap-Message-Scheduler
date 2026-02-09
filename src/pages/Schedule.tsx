@@ -91,7 +91,6 @@ export default function Schedule() {
                 selected={date}
                 onSelect={setDate}
                 disabled={(d) => d < new Date(new Date().setHours(0, 0, 0, 0))}
-                initialFocus
                 className="p-3 pointer-events-auto"
               />
             </PopoverContent>
